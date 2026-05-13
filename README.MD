@@ -72,12 +72,12 @@ Plaintext
 ├── tests/
 │   ├── ui/             # Scripts de automação Sauce Demo
 │   └── api/            # Scripts de automação Restful-Booker
-├── playwright.config.js # Configurações globais do framework[cite: 1]
+├── playwright.config.js # Configurações globais do framework
 └── package.json        # Dependências e scripts do projeto
 🧠 Premissas e Decisões Técnicas
-Linguagem: Optou-se por JavaScript pela agilidade no setup e ampla compatibilidade[cite: 1].
+Linguagem: Optou-se por JavaScript pela agilidade no setup e ampla compatibilidade.
 
-API Testing: Os testes de API foram integrados ao Playwright para centralizar a stack tecnológica e facilitar a execução em CI/CD[cite: 1].
+API Testing: Os testes de API foram integrados ao Playwright para centralizar a stack tecnológica e facilitar a execução em CI/CD.
 
 Estratégia de Dados: Para a API, os dados de reserva são criados e deletados dinamicamente para garantir a independência dos testes.  
 
