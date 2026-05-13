@@ -21,7 +21,7 @@ VS Code (Opcional, mas recomendado)
 Clone o repositório:
 
 Bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/jhonatanscastro/playwright-saucedemo-booker
 cd seu-repositorio
 Instale as dependências do projeto:
 
