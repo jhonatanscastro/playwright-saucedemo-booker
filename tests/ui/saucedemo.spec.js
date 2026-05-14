@@ -61,6 +61,6 @@ test.describe('Sauce Demo - Testes dos fluxos principais de UI e e2e ', () => {
     await expect(checkoutPage.completeHeader).toHaveText('Thank you for your order!');
 
     // Navegação e Logout
-    await expect(page).toHaveURL(UI_CONFIG.BASE_URL + '/');
+    await expect(page).toHaveURL(`${UI_CONFIG.BASE_URL}/checkout-complete.html`);
   });
 });
