@@ -33,9 +33,13 @@ Bash
     npx playwright install
     ```
 
-## 🏃 Executando os Testes
-
+## 🏃 Executando os Testes.
 Você pode executar os testes de diferentes formas:
+### 🏃 Manualmente:
+
+O Testes de Api Rest podem ser importados na collection 'restful-booker-collection.json' para execução manual no Postman ou similar.
+
+### 🏃 Automatizados:
 
 *   **Executar todos os testes (UI + API) em modo Headless:**
     ```bash
